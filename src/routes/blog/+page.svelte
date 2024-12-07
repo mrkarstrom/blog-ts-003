@@ -14,7 +14,7 @@
 				<li>
 					<article>
 						<a data-sveltekit-prefetch href={`/blog/${post.slug}`}>
-							<h3>{post.title.rendered}</h3>
+							<h3>{@html post.title.rendered}</h3>
 						</a>
 
 						<p>
