@@ -13,7 +13,7 @@
 			{#each posts as post}
 				<li>
 					<article>
-						<a href={`/blog/${post.slug}`} sveltekit:prefetch>
+						<a data-sveltekit-prefetch href={`/blog/${post.slug}`}>
 							<h3>{post.title.rendered}</h3>
 						</a>
 
